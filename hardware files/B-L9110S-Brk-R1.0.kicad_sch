@@ -1,0 +1,5248 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "721c3d28-038f-47c6-96c5-4fc078573d6f")
+	(paper "A4")
+	(title_block
+		(title "L9110S")
+		(company "BOARDOZA YUNUS BEKAR")
+	)
+	(lib_symbols
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x06_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06_Pin"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "L9110:L9110"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "L9110"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" "L9110:SO-08"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "\nMotor control driver chip\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Asic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/L9110%20(SOP-8)/Asic/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "L9110 (SOP-8)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/L9110%20(SOP-8)/Asic/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "L9110_0_0"
+				(rectangle
+					(start -7.62 -5.08)
+					(end 7.62 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "OA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VCC@1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "VCC@2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "OB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "GND@2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "IA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "IB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "GND@1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SparkFun-Connectors:CONN_06FEMALE_LOCK"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 15.24 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CONN_06FEMALE_LOCK"
+				(at -5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "1X06_FEMALE_LOCK.010"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections  <b>On any of the 0.1 inch spaced packages, you can populate with these:</b><ul><li><a href=\"https://www.sparkfun.com/products/116\"> Break Away Headers - Straight</a> (PRT-00116)</li><li><a href=\"https://www.sparkfun.com/products/553\"> Break Away Male Headers - Right Angle</a> (PRT-00553)</li><li><a href=\"https://www.sparkfun.com/products/115\"> Female Headers</a> (PRT-00115)</li><li><a href=\"https://www.sparkfun.com/products/117\"> Break Away Headers - Machine Pin</a> (PRT-00117)</li><li><a href=\"https://www.sparkfun.com/products/743\"> Break Away Female Headers - Swiss Machine Pin</a> (PRT-00743)</li><li><a href=\"https://www.sparkfun.com/products/9280\"> Arduino Stackable Header - 6 Pin</a> (PRT-09280)</li></ul> <b> For SCREWTERMINALS and SPRING TERMINALS visit here:</b><ul><li><a href=\"https://www.sparkfun.com/search/results?term=Screw+Terminals\"> Screw Terimnals on SparkFun.com</a> (5mm/3.5mm/2.54mm spacing)</li></ul> <b>This device is also useful as a general connection point to wire up your design to another part of your project. Our various solder wires solder well into these plated through hole pads.</b><ul><li><a href=\"https://www.sparkfun.com/products/11375\"> Hook-Up Wire - Assortment (Stranded, 22 AWG)</a> (PRT-11375)</li><li><a href=\"https://www.sparkfun.com/products/11367\"> Hook-Up Wire - Assortment (Solid Core, 22 AWG)</a> (PRT-11367)</li><li><a href=\"https://www.sparkfun.com/categories/141\"> View the entire wire category on our website here</a></li> </ul>"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field4" "XXX-00000"
+				(at 0 19.05 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "PROD_ID:XXX-00000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*1X06_FEMALE_LOCK.010*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CONN_06FEMALE_LOCK_0_1"
+				(rectangle
+					(start 0 -1.27)
+					(end -5.08 13.97)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "CONN_06FEMALE_LOCK_1_1"
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 10.16 180)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 12.7 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SparkFun-PowerSymbols:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at -1.778 -5.08 0)
+				(effects
+					(font
+						(size 1.143 1.143)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ground Supply Symbol Generic signal ground supply symbol."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "PROD_ID:XXX-00000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 -2.54) (xy 1.905 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 92.837 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ce645c9-1a8d-4b44-a517-e7bc05350b62")
+	)
+	(junction
+		(at 179.832 69.215)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29ab1a7e-ff3b-4843-878d-c62e10dba995")
+	)
+	(junction
+		(at 176.022 85.725)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e5c8d64-3d75-40f6-bf3b-cac8e841bed2")
+	)
+	(junction
+		(at 183.642 69.215)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32f42100-a5d0-4a4e-9a4c-d47ad1fffa43")
+	)
+	(junction
+		(at 183.642 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46ad9bdc-5a5e-43e1-a54e-785a211ae8e1")
+	)
+	(junction
+		(at 217.551 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48e28ee9-f808-4c66-9ef9-fafa7538f1fd")
+	)
+	(junction
+		(at 129.667 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c07336c-d6d6-45d1-a6b8-8c63e1fdea19")
+	)
+	(junction
+		(at 129.667 90.805)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ecbd39c-7303-4239-bf1b-b01f620f6387")
+	)
+	(junction
+		(at 217.678 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ffdd829-cb60-434d-85b9-ab5c63ea88f4")
+	)
+	(junction
+		(at 181.737 69.215)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "600161e1-b229-4f07-a5b5-d7ef6d281b21")
+	)
+	(junction
+		(at 140.462 88.265)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "607a3ad1-6e26-4b41-9f91-3b5fbbed5c0e")
+	)
+	(junction
+		(at 122.682 112.903)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "625ff1a2-e827-4560-b120-7661e0781a93")
+	)
+	(junction
+		(at 140.462 85.725)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68a38cac-d336-4b00-b00d-322d8d5562dc")
+	)
+	(junction
+		(at 122.682 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b076157-47e3-490f-b005-1d83ea70398c")
+	)
+	(junction
+		(at 129.667 83.185)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c79b8e0-00e4-4e57-9207-6b3afccad616")
+	)
+	(junction
+		(at 92.837 65.405)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "758be6b3-2259-443a-9570-276ebf79e0e3")
+	)
+	(junction
+		(at 217.551 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79b66bfe-3577-46fa-972c-ed201fe24414")
+	)
+	(junction
+		(at 129.667 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d520132-2dfe-4669-b1e2-818bb361952f")
+	)
+	(junction
+		(at 140.462 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97636870-4a95-4ed9-9f69-ef4cbb9f49aa")
+	)
+	(junction
+		(at 217.678 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fd9470b-9701-4cda-b578-d0bdded9d096")
+	)
+	(junction
+		(at 170.307 90.805)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0eba636-b27b-4db6-a60e-68e407ac0914")
+	)
+	(junction
+		(at 187.452 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b612d524-894b-4b52-889b-6250b9b551de")
+	)
+	(junction
+		(at 170.307 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c09774ce-0124-47c2-b249-faa3bfce1846")
+	)
+	(junction
+		(at 121.412 90.805)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3f7530d-5fda-43e7-b282-46890c4d4620")
+	)
+	(junction
+		(at 217.678 90.297)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb55f0b6-0142-4ab3-ba8b-c5f15aba507b")
+	)
+	(junction
+		(at 217.678 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de2a872d-9a63-4d1b-98bd-6ebe947fa8af")
+	)
+	(junction
+		(at 121.412 83.312)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3db0bb1-fa5a-488a-afc8-6825320fac47")
+	)
+	(junction
+		(at 179.832 88.265)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4357860-592b-44b9-a16c-32308aa29d99")
+	)
+	(junction
+		(at 170.307 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e85ff7cb-8f7b-4cdf-8440-85fb9aa1049a")
+	)
+	(wire
+		(pts
+			(xy 179.832 88.265) (xy 208.661 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03646dc2-341d-4500-bb5a-85458f216ffe")
+	)
+	(wire
+		(pts
+			(xy 181.737 65.405) (xy 181.737 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0509cbe4-0f00-44b8-88a0-22757eec4301")
+	)
+	(wire
+		(pts
+			(xy 217.678 97.917) (xy 232.537 97.917)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089286df-49f4-440a-809d-f34723006abb")
+	)
+	(wire
+		(pts
+			(xy 179.832 69.215) (xy 176.022 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c452882-7c60-46ae-93da-6090588dd246")
+	)
+	(wire
+		(pts
+			(xy 140.462 107.95) (xy 143.637 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a8b65c-6084-4117-bd3d-a9be2dbb515d")
+	)
+	(wire
+		(pts
+			(xy 217.551 100.457) (xy 217.551 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c3f915-4477-4290-9fac-35aac11e85aa")
+	)
+	(wire
+		(pts
+			(xy 113.03 108.077) (xy 122.682 108.077)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd66a04-1f00-429e-8fc2-afe493352f9e")
+	)
+	(wire
+		(pts
+			(xy 179.832 69.215) (xy 179.832 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20930b38-3e17-4db3-a303-21c9c014a81a")
+	)
+	(wire
+		(pts
+			(xy 187.452 107.95) (xy 208.661 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2148a135-328b-40f6-87d0-63d050aa1b53")
+	)
+	(wire
+		(pts
+			(xy 113.157 85.979) (xy 121.412 85.979)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "232e0751-52b3-44c3-959d-0fd313946023")
+	)
+	(wire
+		(pts
+			(xy 87.757 67.945) (xy 87.757 65.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2388e92b-f239-404d-8148-340d54c16354")
+	)
+	(wire
+		(pts
+			(xy 163.957 110.49) (xy 183.642 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24299251-1c06-425c-834f-153e144379fd")
+	)
+	(wire
+		(pts
+			(xy 218.948 99.06) (xy 217.678 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "244967cf-5e50-4070-8c13-6d77f0c4397c")
+	)
+	(wire
+		(pts
+			(xy 179.832 69.215) (xy 181.737 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25675407-c1f0-4929-b144-e07c271225e3")
+	)
+	(wire
+		(pts
+			(xy 217.678 97.917) (xy 217.678 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2860b582-b8d5-4199-898d-07fc6cdc51f5")
+	)
+	(wire
+		(pts
+			(xy 87.757 73.025) (xy 87.757 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dd7e8aa-7d90-4589-bca4-e58902401e74")
+	)
+	(wire
+		(pts
+			(xy 170.307 113.03) (xy 163.957 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e686942-e3e0-4bae-9674-0df6584f9cb0")
+	)
+	(wire
+		(pts
+			(xy 140.462 110.49) (xy 143.637 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37971316-6ffc-4be2-9955-a51283a6c087")
+	)
+	(wire
+		(pts
+			(xy 217.678 90.297) (xy 232.537 90.297)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b63c21-f7c1-41db-be40-7d2becb1ea81")
+	)
+	(wire
+		(pts
+			(xy 208.661 88.265) (xy 208.661 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b0ad118-ce5b-4be5-bf5d-b15db9882d47")
+	)
+	(wire
+		(pts
+			(xy 121.412 85.979) (xy 121.412 83.312)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c92ba94-974c-44f8-831f-612e13624896")
+	)
+	(wire
+		(pts
+			(xy 129.667 84.455) (xy 129.667 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d671e61-2b25-4fda-b168-600032bdbb1f")
+	)
+	(wire
+		(pts
+			(xy 163.322 83.185) (xy 170.307 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f565e88-f328-441d-86da-58b4f990ff80")
+	)
+	(wire
+		(pts
+			(xy 143.637 113.03) (xy 129.667 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4129a0d5-18e7-43ab-8355-25db8f9934ac")
+	)
+	(wire
+		(pts
+			(xy 217.678 90.297) (xy 217.678 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42de8e52-9b78-4ed4-b6d5-1bcabccccd15")
+	)
+	(wire
+		(pts
+			(xy 217.678 89.154) (xy 217.678 90.297)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d57c8a-ef4e-42dd-afbd-706cbb575f83")
+	)
+	(wire
+		(pts
+			(xy 214.122 93.98) (xy 214.122 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45bb1958-0215-4dcd-a76c-fb7076a45654")
+	)
+	(wire
+		(pts
+			(xy 129.667 105.41) (xy 143.637 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4632e970-9738-4d68-84df-d01b7da02538")
+	)
+	(wire
+		(pts
+			(xy 217.551 102.997) (xy 232.537 102.997)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46b13bff-6462-4354-b28b-ba6ebd419c63")
+	)
+	(wire
+		(pts
+			(xy 212.217 110.49) (xy 212.217 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "493dcfe1-e302-4af7-bf0c-b668944065cb")
+	)
+	(wire
+		(pts
+			(xy 212.217 101.6) (xy 217.551 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b25adac-eb85-4b5b-968d-fe06f77d7908")
+	)
+	(wire
+		(pts
+			(xy 170.307 114.935) (xy 170.307 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8824a5-7f11-4595-bca2-a8a6565f5a07")
+	)
+	(wire
+		(pts
+			(xy 122.682 110.617) (xy 113.03 110.617)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "537decb5-072e-4b1c-9876-52d4b66ed90e")
+	)
+	(wire
+		(pts
+			(xy 129.667 113.03) (xy 129.667 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "550902ff-71fc-4aa1-8f47-2dfdc895b979")
+	)
+	(wire
+		(pts
+			(xy 187.452 79.375) (xy 187.452 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58209b79-c760-4b14-b948-ef2368651003")
+	)
+	(wire
+		(pts
+			(xy 217.678 96.52) (xy 217.678 95.377)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58996aa8-d80c-4ec8-863a-d4c362e2a955")
+	)
+	(wire
+		(pts
+			(xy 217.678 95.377) (xy 232.537 95.377)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c579164-1edb-4653-b043-270a95b72b55")
+	)
+	(wire
+		(pts
+			(xy 140.462 88.265) (xy 140.462 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d8cecb0-f972-466f-ae1c-acfa2c0491c5")
+	)
+	(wire
+		(pts
+			(xy 183.642 79.375) (xy 183.642 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5efc8444-19f1-4e85-9f0c-e8257df63e25")
+	)
+	(wire
+		(pts
+			(xy 132.842 46.736) (xy 141.732 46.736)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f3000d7-488d-4d3d-8cbb-c02a037b7170")
+	)
+	(wire
+		(pts
+			(xy 170.307 105.41) (xy 170.307 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6059a3c5-3dd7-45af-ab2b-8b918756b2e3")
+	)
+	(wire
+		(pts
+			(xy 217.551 101.6) (xy 218.948 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "611d4957-1349-446d-8913-b76bc7537670")
+	)
+	(wire
+		(pts
+			(xy 163.957 107.95) (xy 187.452 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634246ce-f2cc-4d0b-a450-91ba215b785d")
+	)
+	(wire
+		(pts
+			(xy 113.157 88.519) (xy 121.412 88.519)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b74d23-8938-4fbc-a842-a742e729cec0")
+	)
+	(wire
+		(pts
+			(xy 97.917 65.405) (xy 97.917 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65021fe9-1ac9-4953-94a4-be89d167e4ea")
+	)
+	(wire
+		(pts
+			(xy 92.837 80.01) (xy 92.837 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65d179d0-b2d5-4edd-8254-0f550e6b739f")
+	)
+	(wire
+		(pts
+			(xy 122.682 112.903) (xy 122.682 110.617)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "716eced3-793c-48f6-b0f2-2c3363d25ed2")
+	)
+	(wire
+		(pts
+			(xy 121.412 90.805) (xy 129.667 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71803549-5099-4603-8986-fa8a66400772")
+	)
+	(wire
+		(pts
+			(xy 132.842 44.196) (xy 132.842 46.736)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735088e3-6e03-49e4-9d0f-dc6151d6a445")
+	)
+	(wire
+		(pts
+			(xy 183.642 69.215) (xy 187.452 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77b2b0d3-b267-40c1-8d23-12e6a83f061a")
+	)
+	(wire
+		(pts
+			(xy 121.412 83.185) (xy 129.667 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "810b6835-76be-4a45-9de0-62afa45774a4")
+	)
+	(wire
+		(pts
+			(xy 183.642 69.215) (xy 181.737 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8152569d-24da-4a5e-8663-5f8c7c76b240")
+	)
+	(wire
+		(pts
+			(xy 175.387 46.736) (xy 175.387 49.276)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90fb0a05-faaa-4f36-8ceb-f1134ad7d998")
+	)
+	(wire
+		(pts
+			(xy 122.682 108.077) (xy 122.682 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9590e147-2282-4aa4-a868-96d5009e2bcf")
+	)
+	(wire
+		(pts
+			(xy 87.757 74.93) (xy 92.837 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9646b045-2fd9-41d1-85ba-77218251e759")
+	)
+	(wire
+		(pts
+			(xy 129.667 113.03) (xy 122.682 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9818d7e0-8c38-4759-b26f-85492d537805")
+	)
+	(wire
+		(pts
+			(xy 170.307 83.185) (xy 170.307 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c6cac1-2ffe-46e3-bc68-f5f26928529d")
+	)
+	(wire
+		(pts
+			(xy 163.322 88.265) (xy 179.832 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a135fb8-762c-4832-8b30-dd6ead4b71f7")
+	)
+	(wire
+		(pts
+			(xy 208.661 96.52) (xy 217.678 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c1b2f89-d1d8-47e8-b010-fa8292a14048")
+	)
+	(wire
+		(pts
+			(xy 208.661 99.06) (xy 208.661 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0347799-ac9b-4638-8170-8a0af93ca819")
+	)
+	(wire
+		(pts
+			(xy 179.832 79.375) (xy 179.832 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a10a151a-010f-4a26-bed0-16d64522db2a")
+	)
+	(wire
+		(pts
+			(xy 143.002 88.265) (xy 140.462 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a38ddbe6-44c9-415e-a520-0a995c9c3108")
+	)
+	(wire
+		(pts
+			(xy 140.462 65.405) (xy 140.462 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a54b022c-2af8-4fc1-bf7c-f9a994ef021d")
+	)
+	(wire
+		(pts
+			(xy 218.948 93.98) (xy 217.678 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b883d2-c1a1-4c75-8663-535c342e88b4")
+	)
+	(wire
+		(pts
+			(xy 169.037 46.736) (xy 175.387 46.736)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad782a1b-82e3-471b-9f34-ca1e214edbd7")
+	)
+	(wire
+		(pts
+			(xy 87.757 65.405) (xy 92.837 65.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ada52567-2165-46d9-af7c-cf9cdffa1a57")
+	)
+	(wire
+		(pts
+			(xy 92.837 65.405) (xy 97.917 65.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae82bcb2-7afb-48a5-8b33-749a39f86f42")
+	)
+	(wire
+		(pts
+			(xy 176.022 69.215) (xy 176.022 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1cfafb2-75f9-4766-91d1-ae89084ad2e1")
+	)
+	(wire
+		(pts
+			(xy 140.462 85.725) (xy 143.002 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b72e8a61-83c7-4d93-b20c-b271e9e14d0c")
+	)
+	(wire
+		(pts
+			(xy 176.022 79.375) (xy 176.022 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b909d111-3714-43ef-8fa2-b48ada790cc8")
+	)
+	(wire
+		(pts
+			(xy 217.678 99.06) (xy 208.661 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb68dfb9-e680-4a1c-8500-f347e075d5cb")
+	)
+	(wire
+		(pts
+			(xy 121.412 88.519) (xy 121.412 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be04a5ad-2e40-4454-a257-d5b6eedf33bf")
+	)
+	(wire
+		(pts
+			(xy 217.551 104.14) (xy 218.948 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff82115-bfe6-4d07-91be-7f0d8b749672")
+	)
+	(wire
+		(pts
+			(xy 217.678 91.44) (xy 218.948 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1282a9a-9c48-47ed-81b7-90185ccdcff3")
+	)
+	(wire
+		(pts
+			(xy 121.412 83.312) (xy 121.412 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c231e6d6-8fd5-4ec1-bf5c-89036c4f7cb9")
+	)
+	(wire
+		(pts
+			(xy 163.322 85.725) (xy 176.022 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3cc5819-8352-4036-94fd-60b71b6f9244")
+	)
+	(wire
+		(pts
+			(xy 140.462 107.95) (xy 140.462 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5d769f4-f3bf-45bc-b94a-b470c5ddc738")
+	)
+	(wire
+		(pts
+			(xy 129.667 106.68) (xy 129.667 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c824fa0b-70ef-4b94-935b-4fc1a1b7738b")
+	)
+	(wire
+		(pts
+			(xy 97.917 74.93) (xy 97.917 73.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c95c2b0b-fee0-4455-98bd-b601fd0fd4da")
+	)
+	(wire
+		(pts
+			(xy 217.678 93.98) (xy 214.122 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caf57e36-969e-4556-a6d8-4c5091524641")
+	)
+	(wire
+		(pts
+			(xy 140.462 85.725) (xy 140.462 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb513df5-bc68-4228-bc68-d4bb03d4e7ea")
+	)
+	(wire
+		(pts
+			(xy 129.667 90.805) (xy 129.667 89.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce0acb55-cfe5-4e88-834b-bf7d351b67d7")
+	)
+	(wire
+		(pts
+			(xy 217.678 92.837) (xy 217.678 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d068bc3b-ab43-4f60-93fe-1955dc81c8f6")
+	)
+	(wire
+		(pts
+			(xy 217.551 102.997) (xy 217.551 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1aa9f47-2001-4b7f-bf34-84ed6c9471ef")
+	)
+	(wire
+		(pts
+			(xy 163.957 105.41) (xy 170.307 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d263fa4a-32ea-4ece-880c-f757092eea14")
+	)
+	(wire
+		(pts
+			(xy 187.452 69.215) (xy 187.452 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d52aed79-5b97-4423-87f9-0f9666590705")
+	)
+	(wire
+		(pts
+			(xy 217.678 96.52) (xy 218.948 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8445a84-bbf0-4b83-a411-b57b0498a6f2")
+	)
+	(wire
+		(pts
+			(xy 163.322 90.805) (xy 170.307 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc203a5e-a0da-4f3d-80a6-89917f17383a")
+	)
+	(wire
+		(pts
+			(xy 217.678 92.837) (xy 232.537 92.837)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de21d61f-e3d3-4def-a4c2-c26c4f7db00d")
+	)
+	(wire
+		(pts
+			(xy 143.002 90.805) (xy 129.667 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df0b0206-2b2c-43f7-b69c-23c8011880da")
+	)
+	(wire
+		(pts
+			(xy 217.551 100.457) (xy 232.537 100.457)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e341a55c-6ed6-40c6-b4a7-eacad781f077")
+	)
+	(wire
+		(pts
+			(xy 92.837 74.93) (xy 97.917 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e522f962-f63a-42b7-a7a9-245bc6b3ee8a")
+	)
+	(wire
+		(pts
+			(xy 122.682 105.41) (xy 129.667 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e633ef31-16cd-484d-a615-319a1765ac91")
+	)
+	(wire
+		(pts
+			(xy 161.417 46.736) (xy 146.812 46.736)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e99f04f5-4ef7-4346-9153-fba9601d6323")
+	)
+	(wire
+		(pts
+			(xy 122.682 113.03) (xy 122.682 112.903)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a02100-48e6-4a69-b7a2-e7fc4db65108")
+	)
+	(wire
+		(pts
+			(xy 176.022 85.725) (xy 214.122 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb896968-50fb-4179-91c8-843d94079522")
+	)
+	(wire
+		(pts
+			(xy 183.642 110.49) (xy 212.217 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebdd10b5-c4ef-4d3c-9fda-4e168e0fe0e2")
+	)
+	(wire
+		(pts
+			(xy 92.837 62.23) (xy 92.837 65.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc26a00-3369-44be-b8a7-134c4878eb92")
+	)
+	(wire
+		(pts
+			(xy 183.642 74.295) (xy 183.642 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6870382-ef34-480b-9705-706e81a82150")
+	)
+	(wire
+		(pts
+			(xy 170.307 90.805) (xy 170.307 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f88b5039-a2e8-4778-8813-eb6e4717936d")
+	)
+	(wire
+		(pts
+			(xy 129.667 83.185) (xy 143.002 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f928e598-6132-4688-8e12-7bd8e411b9bb")
+	)
+	(wire
+		(pts
+			(xy 217.551 104.14) (xy 217.551 105.664)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf2f804-e223-4bc5-b4da-d307f8ef21cf")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 132.842 44.196 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f2e1f49-2851-4202-9650-3f6d6c0cda28")
+		(property "Reference" "#PWR05"
+			(at 132.842 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 132.842 40.6941 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.842 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.842 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.842 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee38b050-847b-4ccc-9500-1a90e80ebe9f")
+		)
+		(instances
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 181.737 65.405 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1220a345-0ff9-4461-9921-9e2edbdaf494")
+		(property "Reference" "#PWR02"
+			(at 181.737 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 181.737 61.9031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.737 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.737 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.737 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f60098cf-8da1-4a37-91d3-0f74b0d28216")
+		)
+		(instances
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 224.028 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21159bad-d92e-47ef-b279-10c43837b225")
+		(property "Reference" "J1"
+			(at 222.123 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x06_Pin"
+			(at 218.059 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 224.028 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.028 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.028 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7349e6aa-8546-46ee-8b0e-3e471390ce52")
+		)
+		(pin "2"
+			(uuid "62d776d0-b59f-4ef4-a6e8-a8f574610fd7")
+		)
+		(pin "3"
+			(uuid "1d846a72-727d-431d-8a00-b2f6597ba705")
+		)
+		(pin "4"
+			(uuid "e88d6d41-ffd0-432e-8d48-f503f28861e6")
+		)
+		(pin "5"
+			(uuid "cd16e5ad-a8ed-4c7d-bda1-d86125ad3656")
+		)
+		(pin "6"
+			(uuid "03d6fbc5-e902-430c-882c-3529051f907d")
+		)
+		(instances
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 144.272 46.736 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25589cdb-be26-4b41-ac2f-f06e2dba38c6")
+		(property "Reference" "R14"
+			(at 143.1036 45.0088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 145.415 45.0088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 144.272 46.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.272 46.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.272 46.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70b5f2eb-1079-4057-9935-9073ab2307d1")
+		)
+		(pin "2"
+			(uuid "a98d9685-a3f4-4075-a62f-d2738735e1ad")
+		)
+		(instances
+			(project "meshtastic_V0.1_R1_15.07.2023"
+				(path "/04b4594e-0a49-4715-a6a1-54c2247add38"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 118.872 90.805 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31db8306-1a0e-4f55-a011-ee2243579cfb")
+		(property "Reference" "H2"
+			(at 117.602 86.0171 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 117.602 87.9381 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm"
+			(at 118.872 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.872 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.872 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35c1a68d-5900-4045-b103-4122e80a949e")
+		)
+		(instances
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND")
+		(at 92.837 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35b57d5d-518f-4583-bbed-52ec499002f3")
+		(property "Reference" "#GND06"
+			(at 94.107 81.28 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.837 84.4464 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.837 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.837 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.837 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "59fa7d09-03b9-4cac-b11b-c7f84c315072")
+		)
+		(instances
+			(project "meshtastic_V0.1_R1_15.07.2023"
+				(path "/04b4594e-0a49-4715-a6a1-54c2247add38"
+					(reference "#GND06")
+					(unit 1)
+				)
+			)
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "#GND03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND")
+		(at 170.307 114.935 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "407ddc02-e727-469e-9b38-5b2d2c0d1692")
+		(property "Reference" "#GND06"
+			(at 171.577 116.205 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.307 119.3714 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.307 117.475 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.307 117.475 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.307 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "f51b741f-3180-4181-b924-ec10abc6c2d4")
+		)
+		(instances
+			(project "meshtastic_V0.1_R1_15.07.2023"
+				(path "/04b4594e-0a49-4715-a6a1-54c2247add38"
+					(reference "#GND06")
+					(unit 1)
+				)
+			)
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "#GND01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L9110:L9110")
+		(at 153.162 88.265 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44b3baab-717b-4c3e-988d-f037f2b52800")
+		(property "Reference" "U2"
+			(at 153.162 77.6351 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B"
+			(at 153.162 79.5561 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "others:L9110"
+			(at 153.162 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.162 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "\nMotor control driver chip\n"
+			(at 153.162 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Asic"
+			(at 153.162 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 153.162 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 153.162 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/L9110%20(SOP-8)/Asic/view-part/?ref=snap"
+			(at 153.162 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "L9110 (SOP-8)"
+			(at 153.162 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 153.162 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/L9110%20(SOP-8)/Asic/view-part/?ref=eda"
+			(at 153.162 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80739edd-bfc6-4570-9a48-d46b7578d0c1")
+		)
+		(pin "2"
+			(uuid "658a15c7-4ce0-4c60-8f4b-68e0b1d6428a")
+		)
+		(pin "3"
+			(uuid "8cfdae1a-ceb0-4e42-9215-4a484081fd48")
+		)
+		(pin "4"
+			(uuid "b166cd22-5d09-44f7-925a-e7d5b21e5a42")
+		)
+		(pin "5"
+			(uuid "03908106-dc49-451d-a716-b153fd51265c")
+		)
+		(pin "6"
+			(uuid "4e564329-594b-4089-a1fc-dcdba4495d3a")
+		)
+		(pin "7"
+			(uuid "4ecc5e4a-7b98-4dc9-8d95-14edd3e73163")
+		)
+		(pin "8"
+			(uuid "a57c9bc0-2375-4c4c-8605-526bdb4746eb")
+		)
+		(instances
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 179.832 76.835 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47638fe9-2093-4ebc-9f15-3f23893cc524")
+		(property "Reference" "R14"
+			(at 176.657 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 176.022 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 179.832 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.832 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.832 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b82c512-1d2d-46bd-b1f0-266dd69b6ad5")
+		)
+		(pin "2"
+			(uuid "cc78116b-2099-4fe3-9418-f999cee64356")
+		)
+		(instances
+			(project "meshtastic_V0.1_R1_15.07.2023"
+				(path "/04b4594e-0a49-4715-a6a1-54c2247add38"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connectors:CONN_06FEMALE_LOCK")
+		(at 235.077 90.297 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "556b4cc4-2bfd-4b0a-b57f-e38630dddb05")
+		(property "Reference" "J4"
+			(at 240.792 94.1206 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CONN_06FEMALE_LOCK"
+			(at 240.792 96.3406 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "others:2317-06S_1x06_P2.50mm_Vertical"
+			(at 235.077 108.077 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 235.077 90.297 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 235.077 90.297 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fe18ef6-84b4-4881-b5bb-110f04fd4056")
+		)
+		(pin "6"
+			(uuid "d3789802-f59c-455f-8f51-a1fa17448bb3")
+		)
+		(pin "2"
+			(uuid "b00ebcb4-aa71-42ce-913f-0601c11938c5")
+		)
+		(pin "3"
+			(uuid "c3e14830-9c73-4440-a20e-aaf127f6a311")
+		)
+		(pin "4"
+			(uuid "b7fa1a0f-ad31-492f-8a2b-6d7075b9ee2b")
+		)
+		(pin "5"
+			(uuid "96141bee-b424-462c-8738-a5d814700154")
+		)
+		(instances
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 165.227 46.736 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ea0108e-41fb-4d3f-ac0c-b28e884bf042")
+		(property "Reference" "D8"
+			(at 165.227 44.196 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED RED"
+			(at 162.687 45.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 165.227 46.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.227 46.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.227 46.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a30395d7-58df-4df9-91c8-0f1590c431b4")
+		)
+		(pin "2"
+			(uuid "1063c420-e126-4ae5-88d0-40aa2db0c88b")
+		)
+		(instances
+			(project "meshtastic_V0.1_R1_15.07.2023"
+				(path "/04b4594e-0a49-4715-a6a1-54c2247add38"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 120.142 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "601c0b42-f8f6-42ab-84a0-c18ed060ed61")
+		(property "Reference" "H3"
+			(at 118.872 100.6221 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 118.872 102.5431 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm"
+			(at 120.142 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.142 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.142 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ad43a3a-43cf-42d2-a26f-c66f1d4c9944")
+		)
+		(instances
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 108.077 88.519 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68608868-479e-46cf-afd4-5ef0924649bf")
+		(property "Reference" "J2"
+			(at 108.712 82.5119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2317-02"
+			(at 108.712 84.4329 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BOARDOZA_CONNECTOR_NEW:2317-02S_1x02_P2.50mm_Vertical"
+			(at 108.077 88.519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 108.077 88.519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 108.077 88.519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e57d5b43-6ba9-40dc-91bf-a825d4a54641")
+		)
+		(pin "2"
+			(uuid "5c2685d3-72cf-4354-adbf-21c027795ace")
+		)
+		(instances
+			(project "DATA_LOGGER"
+				(path "/690522f7-0422-4b21-acf9-98e6adbcb108"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+			(project "MakerTemplate"
+				(path "/d65c9da4-3d4a-4fed-a263-8a92bcf944ef"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 217.678 89.154 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a947c12-bdc2-4329-86c4-ee447a5c619d")
+		(property "Reference" "#PWR03"
+			(at 217.678 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 217.678 85.6521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.678 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.678 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.678 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc738319-cd3c-43fe-9b7d-8513bf9684f3")
+		)
+		(instances
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 92.837 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cbbc1c7-9d12-4347-9ce2-4ff079b3a16c")
+		(property "Reference" "#PWR04"
+			(at 92.837 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 92.837 58.7281 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.837 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.837 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.837 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bb137b9-f084-4033-a129-1d05838c83cb")
+		)
+		(instances
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 129.667 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8844ed55-18f0-4e5f-bb62-5948a3a1e411")
+		(property "Reference" "C3"
+			(at 131.9911 108.3178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 131.9911 111.0929 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 129.667 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.667 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.667 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d1f7943-0172-4d39-920c-7d9f73efb21a")
+		)
+		(pin "2"
+			(uuid "ff6dc819-eed1-447a-8b2a-d1099fc1c105")
+		)
+		(instances
+			(project "meshtastic_V0.1_R1_15.07.2023"
+				(path "/04b4594e-0a49-4715-a6a1-54c2247add38"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 87.757 70.485 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ae26667-3334-4c86-9e62-85718d64f73d")
+		(property "Reference" "C3"
+			(at 90.0811 69.5828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 90.0811 72.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 87.757 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.757 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.757 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d22990f4-9529-4782-91e4-a46cd5e51e6f")
+		)
+		(pin "2"
+			(uuid "c01deb36-cc28-4b05-ab92-7d00816a5eef")
+		)
+		(instances
+			(project "meshtastic_V0.1_R1_15.07.2023"
+				(path "/04b4594e-0a49-4715-a6a1-54c2247add38"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND")
+		(at 175.387 49.276 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b76082c-ee3d-490b-ba8d-70bf25533b3a")
+		(property "Reference" "#GND06"
+			(at 176.657 50.546 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.387 53.7124 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.387 51.816 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.387 51.816 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.387 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "5f971be2-e8e3-4e2a-9347-63bd8c4d1bca")
+		)
+		(instances
+			(project "meshtastic_V0.1_R1_15.07.2023"
+				(path "/04b4594e-0a49-4715-a6a1-54c2247add38"
+					(reference "#GND06")
+					(unit 1)
+				)
+			)
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "#GND04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 187.452 76.835 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cdc4d20-eb3e-4682-881a-f6b18c49f682")
+		(property "Reference" "R14"
+			(at 184.277 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 183.642 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 187.452 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.452 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.452 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6a8f2d5-21ad-4cf6-a747-0bca10d74050")
+		)
+		(pin "2"
+			(uuid "72363ab8-4d2d-4824-876e-11efcf73a069")
+		)
+		(instances
+			(project "meshtastic_V0.1_R1_15.07.2023"
+				(path "/04b4594e-0a49-4715-a6a1-54c2247add38"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "L9110:L9110")
+		(at 153.797 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cf6427d-78ec-40c5-9112-73bb3f3b0470")
+		(property "Reference" "U1"
+			(at 153.797 99.8601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L9110"
+			(at 153.797 101.7811 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "others:L9110"
+			(at 153.797 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.797 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "\nMotor control driver chip\n"
+			(at 153.797 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Asic"
+			(at 153.797 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 153.797 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 153.797 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/L9110%20(SOP-8)/Asic/view-part/?ref=snap"
+			(at 153.797 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "L9110 (SOP-8)"
+			(at 153.797 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 153.797 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/L9110%20(SOP-8)/Asic/view-part/?ref=eda"
+			(at 153.797 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6a3c8dc-4987-42d8-9403-cbed2daf7b66")
+		)
+		(pin "2"
+			(uuid "16526dd8-5cad-4a29-b91e-283114b698dd")
+		)
+		(pin "3"
+			(uuid "8c3bd67c-392e-4c86-a17f-ec9202550dba")
+		)
+		(pin "4"
+			(uuid "c5591308-c6be-4f75-bce1-d722d35d2e9d")
+		)
+		(pin "5"
+			(uuid "121f1d64-3297-4b89-b025-c8a77b5ebace")
+		)
+		(pin "6"
+			(uuid "bc59604c-5596-4149-ad65-a43a19a6510c")
+		)
+		(pin "7"
+			(uuid "56472b91-c8c0-40e3-983b-59c9d36b644e")
+		)
+		(pin "8"
+			(uuid "6da5927e-5398-4f13-8e9d-7ec1f89ee3d9")
+		)
+		(instances
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 183.642 76.835 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fccb337-7a64-4f68-9272-8c04a710a6a0")
+		(property "Reference" "R14"
+			(at 180.467 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 179.832 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 183.642 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 183.642 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 183.642 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae57a02f-9863-44ad-b759-2f9e53ef0e06")
+		)
+		(pin "2"
+			(uuid "9a96ab6f-8931-49e3-9cca-a0d7b08d784c")
+		)
+		(instances
+			(project "meshtastic_V0.1_R1_15.07.2023"
+				(path "/04b4594e-0a49-4715-a6a1-54c2247add38"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 120.142 112.903 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9af100cc-de7a-493f-9072-f1350911dc55")
+		(property "Reference" "H4"
+			(at 118.872 108.1151 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 118.872 110.0361 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm"
+			(at 120.142 112.903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.142 112.903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.142 112.903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89ec5530-ee04-4b0b-9789-dffd5c54ec13")
+		)
+		(instances
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 176.022 76.835 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4b4ece9-e978-4d62-8632-c381bc372c67")
+		(property "Reference" "R14"
+			(at 172.847 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 172.212 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 176.022 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.022 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.022 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afd97dc8-b375-49ec-a536-e272f2f28d4f")
+		)
+		(pin "2"
+			(uuid "668816e0-5202-4621-9d60-519d149db865")
+		)
+		(instances
+			(project "meshtastic_V0.1_R1_15.07.2023"
+				(path "/04b4594e-0a49-4715-a6a1-54c2247add38"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 129.667 86.995 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4cc4c1e-e000-4118-a95f-7d0b32971c24")
+		(property "Reference" "C3"
+			(at 131.9911 86.0928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 131.9911 88.8679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 129.667 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.667 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.667 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f751d2cd-5036-4071-9549-e96588483933")
+		)
+		(pin "2"
+			(uuid "6c7bf666-b344-404f-8f23-f42117218dcf")
+		)
+		(instances
+			(project "meshtastic_V0.1_R1_15.07.2023"
+				(path "/04b4594e-0a49-4715-a6a1-54c2247add38"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbols:GND")
+		(at 217.551 105.664 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba5e3b85-1411-4bd7-a87c-c9371bdeaa99")
+		(property "Reference" "#GND06"
+			(at 218.821 106.934 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.551 110.1004 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.551 108.204 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.551 108.204 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.551 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "2a02b99a-9147-4fd3-9402-17b7eec2822e")
+		)
+		(instances
+			(project "meshtastic_V0.1_R1_15.07.2023"
+				(path "/04b4594e-0a49-4715-a6a1-54c2247add38"
+					(reference "#GND06")
+					(unit 1)
+				)
+			)
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "#GND02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 140.462 65.405 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d20e7266-19e7-487d-80f0-c0b34aa7f0e9")
+		(property "Reference" "#PWR01"
+			(at 140.462 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 140.462 61.9031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.462 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.462 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.462 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5e4796d-9024-4822-9a25-d9c650a3089d")
+		)
+		(instances
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 118.872 83.312 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7fb4ea5-2808-4c1a-9df1-d11affc157f2")
+		(property "Reference" "H1"
+			(at 117.602 78.5241 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 117.602 80.4451 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm"
+			(at 118.872 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.872 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.872 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89c50683-e4f1-4a11-8667-fb08d670fdb0")
+		)
+		(instances
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 107.95 110.617 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da004999-c374-4828-aaec-3ceec39af055")
+		(property "Reference" "J2"
+			(at 108.585 104.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2317-02"
+			(at 108.585 106.5309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BOARDOZA_CONNECTOR_NEW:2317-02S_1x02_P2.50mm_Vertical"
+			(at 107.95 110.617 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 110.617 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 110.617 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2166a5f-1c5c-4466-9661-b5f712a806ea")
+		)
+		(pin "2"
+			(uuid "a165b6bf-b585-43ac-ac16-c613ebc04118")
+		)
+		(instances
+			(project "DATA_LOGGER"
+				(path "/690522f7-0422-4b21-acf9-98e6adbcb108"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+			(project "MakerTemplate"
+				(path "/d65c9da4-3d4a-4fed-a263-8a92bcf944ef"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 97.917 70.485 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df4eead6-daae-427d-be0b-fed7cf734a98")
+		(property "Reference" "C3"
+			(at 100.2411 69.5828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 100.2411 72.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 97.917 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.917 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.917 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6eb1c7e1-e977-420e-846d-a83bcdb4ee90")
+		)
+		(pin "2"
+			(uuid "d5a12c19-b84c-4bf3-9539-f82ebe7f1d4e")
+		)
+		(instances
+			(project "meshtastic_V0.1_R1_15.07.2023"
+				(path "/04b4594e-0a49-4715-a6a1-54c2247add38"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+			(project "L9110S_MOTOR_DRIVER_MODULE"
+				(path "/721c3d28-038f-47c6-96c5-4fc078573d6f"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
